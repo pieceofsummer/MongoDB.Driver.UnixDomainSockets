@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.0</TargetFramework>
+        <LangVersion>7.2</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MongoDB.Driver" Version="2.7.2" />
+        <ProjectReference Include="..\MongoDB.Driver.UnixDomainSockets\MongoDB.Driver.UnixDomainSockets.csproj" />
+    </ItemGroup>
+    
+</Project>

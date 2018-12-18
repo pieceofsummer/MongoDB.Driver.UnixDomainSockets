@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <TargetFrameworks>net45;netstandard1.5</TargetFrameworks>
+        <RootNamespace>MongoDB.Driver</RootNamespace>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageId>MongoDB.Driver.UnixDomainSockets</PackageId>
+        <PackageTags>mongodb;unix</PackageTags>
+        <Authors>Alexey Skalozub</Authors>
+        <Description>Enables MongoDB.Driver connecting to Unix domain sockets</Description>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/pieceofsummer/MongoDB.Driver.UnixDomainSockets</RepositoryUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/pieceofsummer/MongoDB.Driver.UnixDomainSockets/master/LICENSE.md</PackageLicenseUrl>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="MongoDB.Driver" Version="2.4.0" />
+    </ItemGroup>
+
+</Project>
